@@ -37,6 +37,7 @@ main {
 
 h2 {
     font-size: 40px;
+    
 }
 
 h3 {
@@ -56,7 +57,36 @@ img {
     border-radius: 10px;
 }
 
-main p:last-child {
-    font-size: 25px;
-    font-weight: bold;
+body.about main p {
+  font-size: 1.5em;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  margin: 20px 0;
+  border: 3px solid red;
+  object-fit: cover;
+}
+
+body.about {
+  background-image: url("../Images/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body.about main {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
 }
